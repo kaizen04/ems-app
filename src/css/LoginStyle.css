@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.SignIn-Container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignIn-SubContainer{
+    height: 55%;
+    width: 550px;
+    border: 0.5px solid rgb(173, 183, 230);
+    background-color: rgb(245, 245, 252);
+    padding: 50px 0px 50px 0px;
+}
+h2{
+    font-weight: 600;
+    color: darkblue;
+}
+h3,
+h4,
+h5,
+h6,
+label,
+span {
+    font-weight: 500;
+    font-family: 'Fira Sans', sans-serif;
+    padding-bottom: 5px;
+}
+
+h2, h3 {
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 20px;
+}
+
+h3 {
+    padding-top: 10px;
+    color: rgb(38, 37, 37);
+}
+
+.auth-wrapper .form-control:focus {
+    border-color: #167bff;
+    box-shadow: none;
+}
+
+.mb-3{
+    padding: 0px 70px 0px 70px;
+}
+
+.form-check {
+    padding-left: 130px;
+    padding-top: 10px;
+}
+
+.d-grid {
+    padding: 20px 180px 0px 180px;
+}
